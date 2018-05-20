@@ -91,7 +91,7 @@
             
               <li class="category-list-container">
                 <a href="javascript:;">分類</a>
-                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Diary/">Diary</a><span class="category-list-count">1</span></li></ul>
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Diary/">Diary</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Memo/">Memo</a><span class="category-list-count">1</span></li></ul>
               </li>
             
           
@@ -153,6 +153,10 @@
 </span>
 </a>
         
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Memo/">Memo</a></li></ul>
+	</span>
+
 
         
 	<span class="article-tag tagcloud">
@@ -164,25 +168,11 @@
       <div class="article-entry">
         
           <p>完整可以看這邊 <a href="https://hexo.io/zh-tw/docs/" target="_blank" rel="noopener">Hexo Doc</a></p>
-<p>這邊記一下 Hexo 常用的 terminal 指令</p>
-<p><strong>Init - 初始化目錄</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure>
-<p>沒有寫 folder 代表針對當前目錄</p>
-<p><strong>New - 新增文章</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
-<p>預設 /scaffolds/ 下有 3種 layout 讓你選</p>
-<ul>
-<li>draft.md</li>
-<li>page.md</li>
-<li>post.md</li>
-</ul>
-<p><strong>Clean - 清除 publish 產生的檔案</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-<p><strong>Generate - 建置</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p>
-<p><strong>Server - 啟動伺服器</strong><br>在本機執行一個 web server，可以在 localhost:4000(預設) 預覽結果<br>文件有修改也會即時更新，在瀏覽器重新整理就可以看到變化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></p>
-<p><strong>Deploy</strong><br>依照 /_config.yml 裡面的設定部署至指定目的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
-<p>大概4這樣</p>
-
+          <p>
+            <a href="/2018/05/21/20180520-hexo/">
+              閱讀全文
+            </a>
+          </p>
         
       </div>
     </div>
@@ -224,48 +214,11 @@
       <div class="article-entry">
         
           <h3 id="之前"><a href="#之前" class="headerlink" title="之前"></a>之前</h3><p>之前也有過幾次「覺得應該要來寫Blog」的想法。也不是不曾動手過，試過幾次，換過幾個不同平台</p>
-<p>最終還是都被 <strong>惰性大魔王</strong> 擊敗。</p>
-<h3 id="曾經"><a href="#曾經" class="headerlink" title="曾經"></a>曾經</h3><p>例如曾經用 Google 的 <a href="https://www.blogger.com/" target="_blank" rel="noopener">Blogger</a> 寫了幾篇流水帳<br>不太熟悉地東調西改網頁模板，也去找了 <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank" rel="noopener">SyntaxHighlighter</a> 加入網站來顯示程式碼<br>以為自己會多有毅力寫下去這樣 XD</p>
-<p>荒廢了很久一段時間，後來又看到人家分享，使用靜態網站產生器 (Static Site Generators)<br>支援 Markdown 語法產生 Html，再上傳到 Github，免費又方便！<br><del>(謎：Blogger 也是免費的啊)</del></p>
-<h3 id="試過"><a href="#試過" class="headerlink" title="試過"></a>試過</h3><p>之前試過兩款：<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>、<a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a></p>
-<ul>
-<li>Jekyll<ul>
-<li>是用 Ruby 寫的，記得之前在本機上安裝環境上遇到一些問題還滿不知所措的</li>
-</ul>
-</li>
-<li>Hugo<ul>
-<li>剛剛查是 Go 寫的，細節已經完全沒有印象<br>(剛看本機上相關檔案都已經是 <strong>2年前</strong> 的事，剛好是前一份工作離職時 <del>以為自己有心嘗試些新玩意</del>)</li>
-</ul>
-</li>
-</ul>
-<p>總之呢呃每次嘗試之間，都間隔了段不短的時間 ……</p>
-<h3 id="最近"><a href="#最近" class="headerlink" title="最近"></a>最近</h3><p>這次則是最近在 FB 上看到 <a href="https://www.facebook.com/alantsai.blog/" target="_blank" rel="noopener">Alan Tsai</a> 大大分享的 <a href="http://blog.alantsai.net/tags/wyam" target="_blank" rel="noopener">Wyam系列文章</a><br>覺得可以再來試看看<br>所以就嘗試用了 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 搭配上傳 Github 來寫寫文章。<del>(咦什麼神展開)</del></p>
-<p><a href="https://wyam.io/" target="_blank" rel="noopener">Wyam</a> 是用 .Net 開發的 SSG專案，理論上我寫 C# 應該要感到比較熟悉才對<br>不知為何陰錯陽差，後來看到 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 相關介紹文章反而被吸引了過去 XD</p>
-<p>查資料過程中發現，這種 <strong>Static Site Generator</strong> 還真不少<br>甚至有個 <a href="https://www.staticgen.com/" target="_blank" rel="noopener">StaticGen</a> 網站整理出 Github 上各式 <strong>SSG</strong> 專案，還可以依照 開發語言 或 Github星星、Fork數 等條件過濾。</p>
-<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>其中 <a href="">Hexo</a> 是無意中看到的，<a href="https://dtes8617.github.io/2018/01/16/%E7%94%A8Hexo%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E5%B0%88%E5%B1%ACBlog/" target="_blank" rel="noopener">聽說</a> 開發者是台灣人，更增添了一些親切感</p>
-<p>安裝過程就不多提了，網路上很多教學文章</p>
-<p>過程中也是遇到大大小小狀況，邊 Google 邊排除<br>因為還不習慣 blog 撰寫，也沒有截圖或作筆記什麼的</p>
-<p>就大概列一下摸到的東西 (有些甚至跟這次主題無關 XD)</p>
-<ul>
-<li>Cmder</li>
-<li>Cmder Git 設定</li>
-<li>cmder-powerline-prompt</li>
-<li>AnonymousPro font</li>
-<li>Powershell - Install-Module posh-git</li>
-<li>VSCode - 終端機改用 Cmder</li>
-<li>VSCode - 雜七雜八設定調整</li>
-<li>Hexo</li>
-<li>Hexo Theme - Chan</li>
-</ul>
-<p>前幾項<del>來亂的</del>其實是看到人家教學文章提到一些環境調教，<br>順便照著做，然後踩坑延伸出的問題排除步驟 …</p>
-<p>最後結果是使用 VSCode 來作為主要撰寫工具</p>
-<p>Markdown 語法支援<br>終端機整合<br>以及各式各樣的擴充功能</p>
-<p><strong>VSCode真是好棒棒！</strong></p>
-<h3 id="總之"><a href="#總之" class="headerlink" title="總之"></a>總之</h3><p>總之這次又生出了個 Hexo 版的 Hello Word Blog 文章</p>
-<p>目前版面看起來沒有很理想，但是對前端很不熟，只好慢慢嘗試調整囉</p>
-<p><br></p>
-<p><del>希望這次會撐久一點</del></p>
-
+          <p>
+            <a href="/2018/05/20/20180520/">
+              閱讀全文
+            </a>
+          </p>
         
       </div>
     </div>
