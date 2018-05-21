@@ -20,7 +20,7 @@
 <meta property="og:site_name" content="Dear Diary">
 <meta property="og:description" content="完整可以看這邊 Hexo Doc">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:updated_time" content="2018-05-20T20:23:01.875Z">
+<meta property="og:updated_time" content="2018-05-21T18:46:11.272Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 基本指令">
 <meta name="twitter:description" content="完整可以看這邊 Hexo Doc">-->
@@ -153,10 +153,10 @@
 <a id="more"></a>
 <p>這邊記一下 Hexo 常用的 terminal 指令</p>
 <p><strong>Init - 初始化目錄</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure>
 <p>沒有寫 folder 代表針對當前目錄</p>
 <p><strong>New - 新增文章</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
 <p>預設 /scaffolds/ 下有 3種 layout 讓你選</p>
 <ul>
 <li>draft.md</li>
@@ -164,10 +164,13 @@
 <li>post.md</li>
 </ul>
 <p><strong>Clean - 清除 publish 產生的檔案</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-<p><strong>Generate - 建置</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p>
-<p><strong>Server - 啟動伺服器</strong><br>在本機執行一個 web server，可以在 localhost:4000(預設) 預覽結果<br>文件有修改也會即時更新，在瀏覽器重新整理就可以看到變化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></p>
-<p><strong>Deploy</strong><br>依照 /_config.yml 裡面的設定部署至指定目的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<p><strong>Generate - 建置</strong></p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<p><strong>Server - 啟動伺服器</strong><br>在本機執行一個 web server，可以在 localhost:4000(預設) 預覽結果<br>文件有修改也會即時更新，在瀏覽器重新整理就可以看到變化</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><strong>Deploy</strong><br>依照 /_config.yml 裡面的設定部署至指定目的</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <p>大概4這樣</p>
 
   </div>
